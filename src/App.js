@@ -1,23 +1,16 @@
-import React, { Component } from 'react';
-import Navbar from './komponen/Navbar/Navbar'
-import Slider from './komponen/Slider/Slider'
-import Konten from './komponen/Konten/Konten'
-import Arival from './komponen/Arival/Arival'
+import React, { Component } from 'react'
 import Footer from './komponen/Footer/Footer'
-import Banner from './komponen/Banner/Banner'
-
+import Routes from './routes/Routes'
+import Navbar from './komponen/Navbar/Navbar'
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <Navbar />
-        <Slider />
-        <Konten />
-        <Arival />
-        <Banner />
+        <Routes />
         <Footer />
       </React.Fragment>
-    );
+    )
   }
 }
 
